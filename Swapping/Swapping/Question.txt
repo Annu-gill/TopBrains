@@ -1,0 +1,10 @@
+Question: 3
+Swapping
+
+Description: 
+Ref / Out – Swap Without Temp
+
+Swap two numbers using:
+
+Method 1: ref
+Method 2: out

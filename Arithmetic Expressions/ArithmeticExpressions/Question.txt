@@ -1,0 +1,19 @@
+Question: 5
+Arithmetic Expressions
+
+Description: 
+Evaluate a simple arithmetic expression of the form "a op b" (spaces required),
+where op is one of: +, -, *, /.
+
+Return:
+- the integer result as a string for valid expressions
+- "Error:DivideByZero"   if b==0 for division
+- "Error:InvalidNumber"  if a or b is not an int
+- "Error:UnknownOperator" if op is not one of + - * /
+- "Error:InvalidExpression" if format is invalid
+
+Input: expression (string)
+Output: result (string)
+
+Constraints:
+1 <= expression.Length <= 100

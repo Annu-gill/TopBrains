@@ -1,0 +1,18 @@
+Question: 8
+Bank transaction program
+
+Description
+Simulate a bank account.
+- Start with an initial balance.
+- For each transaction:
+  - if transaction >= 0: deposit
+  - if transaction < 0 : withdraw (only if enough balance; otherwise ignore)
+
+Return the final balance.
+
+Input: initialBalance (int), transactions (int[])
+Output: finalBalance (int)
+
+Constraints:
+0 <= transactions.Length <= 1e5
+-1e9 <= transactions[i] <= 1e9
